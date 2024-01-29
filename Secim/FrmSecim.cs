@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
 
 namespace Secim
 {
@@ -34,43 +34,45 @@ namespace Secim
         private void FrmSecim_Load(object sender, EventArgs e)
         {
             baglan.Open();
-            SqlCommand il = new SqlCommand("Select IL From TBLSECIM ",baglan);
+            SqlCommand il = new SqlCommand("SELECT DISTINCT IL FROM TBLSECIM", baglan);
             SqlDataReader dr = il.ExecuteReader();
             while (dr.Read())
             {
-                cbxIL.Items.Add(dr[0]);
-
-               
+                cbxIL.Items.Add(dr["IL"]);
             }
             baglan.Close();
 
-           
+
         }
 
         private void cbxIL_SelectedIndexChanged(object sender, EventArgs e)
         {
-            label8.Text = cbxIL.SelectedItem.ToString();
+            // İlk önce cbxILCE'nin içeriğini temizle
+            cbxILCE.Items.Clear();
+
+            // Seçilen ilin adını al
+            string secilenIL = cbxIL.SelectedItem.ToString();
+
+            if (!string.IsNullOrEmpty(secilenIL)) // Eğer bir il seçilmişse devam et
+            {
+                // Veritabanında ilçeleri getiren sorguyu çalıştır
+                SqlCommand ilce = new SqlCommand("SELECT ILCE FROM TBLSECIM WHERE IL=@p1", baglan);
+                ilce.Parameters.AddWithValue("@p1", secilenIL);
+
+                baglan.Open();
+                SqlDataReader dt = ilce.ExecuteReader();
+
+                // SqlDataReader'dan okunan her ilçeyi ComboBox'a ekleyin
+                while (dt.Read())
+                {
+                    cbxILCE.Items.Add(dt["ILCE"].ToString());
+                }
+
+                baglan.Close();
+            }
+           
         }
 
-        private void cbxILCE_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            baglan.Open();
-            SqlCommand ilce = new SqlCommand("Select ILCE From TBLSECIM where IL=@p1", baglan);
-            ilce.Parameters.AddWithValue("@p1", label8.Text);
-            SqlDataReader dt = ilce.ExecuteReader();
-            if (dt.Read())
-            {
-               
-                    cbxILCE.Items.Add(dt[0]);
-
-                
-            }
-            else
-            {
-                MessageBox.Show("İl seçiniz.");
-            }
-
-            baglan.Close();
-        }
+        
     }
 }

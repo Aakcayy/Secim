@@ -109,7 +109,7 @@
             this.cbxILCE.Name = "cbxILCE";
             this.cbxILCE.Size = new System.Drawing.Size(258, 24);
             this.cbxILCE.TabIndex = 6;
-            this.cbxILCE.SelectedIndexChanged += new System.EventHandler(this.cbxILCE_SelectedIndexChanged);
+          //  this.cbxILCE.SelectedIndexChanged += new System.EventHandler(this.cbxILCE_SelectedIndexChanged);
             // 
             // tbxAPARTI
             // 
