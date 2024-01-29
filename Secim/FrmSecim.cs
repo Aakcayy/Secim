@@ -24,12 +24,7 @@ namespace Secim
             System.Diagnostics.Process.Start("https://github.com/Aakcayy");
         }
 
-        private void btnSonuclar_Click(object sender, EventArgs e)
-        {
-            FrmSonuclar frs=new FrmSonuclar();
-            frs.Show();
-            this.Hide();
-        }
+        
         SqlConnection baglan=new SqlConnection(@"Data Source=KARTALPC\SQLEXPRESS03;Initial Catalog=Secim;Integrated Security=True");   
         private void FrmSecim_Load(object sender, EventArgs e)
         {
@@ -47,22 +42,23 @@ namespace Secim
 
         private void cbxIL_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // İlk önce cbxILCE'nin içeriğini temizle
+            
             cbxILCE.Items.Clear();
 
-            // Seçilen ilin adını al
+            
             string secilenIL = cbxIL.SelectedItem.ToString();
 
-            if (!string.IsNullOrEmpty(secilenIL)) // Eğer bir il seçilmişse devam et
+            if (!string.IsNullOrEmpty(secilenIL)) 
             {
-                // Veritabanında ilçeleri getiren sorguyu çalıştır
+                cbxILCE.Items.Clear();
+
                 SqlCommand ilce = new SqlCommand("SELECT ILCE FROM TBLSECIM WHERE IL=@p1", baglan);
                 ilce.Parameters.AddWithValue("@p1", secilenIL);
 
                 baglan.Open();
                 SqlDataReader dt = ilce.ExecuteReader();
 
-                // SqlDataReader'dan okunan her ilçeyi ComboBox'a ekleyin
+               
                 while (dt.Read())
                 {
                     cbxILCE.Items.Add(dt["ILCE"].ToString());
@@ -72,7 +68,15 @@ namespace Secim
             }
            
         }
+        private void btnSonuclar_Click(object sender, EventArgs e)
+        {
+            FrmSonuclar frs = new FrmSonuclar();
+            frs.il2 = cbxIL.SelectedItem.ToString(); 
 
-        
+            frs.Show();
+            this.Hide();
+        }
+
+
     }
 }

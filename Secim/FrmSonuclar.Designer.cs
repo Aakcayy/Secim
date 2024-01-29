@@ -475,6 +475,7 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "FrmSonuclar";
             this.Text = "FrmSonuclar";
+            this.Load += new System.EventHandler(this.FrmSonuclar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
             this.ResumeLayout(false);

@@ -45,7 +45,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.cbxIL = new System.Windows.Forms.ComboBox();
             this.lnklblYazilim = new System.Windows.Forms.LinkLabel();
-            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -104,12 +103,12 @@
             // 
             // cbxILCE
             // 
+            this.cbxILCE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxILCE.FormattingEnabled = true;
             this.cbxILCE.Location = new System.Drawing.Point(217, 52);
             this.cbxILCE.Name = "cbxILCE";
             this.cbxILCE.Size = new System.Drawing.Size(258, 24);
             this.cbxILCE.TabIndex = 6;
-          //  this.cbxILCE.SelectedIndexChanged += new System.EventHandler(this.cbxILCE_SelectedIndexChanged);
             // 
             // tbxAPARTI
             // 
@@ -176,6 +175,7 @@
             // 
             // cbxIL
             // 
+            this.cbxIL.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxIL.FormattingEnabled = true;
             this.cbxIL.Location = new System.Drawing.Point(217, 8);
             this.cbxIL.Name = "cbxIL";
@@ -194,22 +194,12 @@
             this.lnklblYazilim.Text = "F Yazılım";
             this.lnklblYazilim.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnklblYazilim_LinkClicked);
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(522, 52);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 16);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "label8";
-            // 
             // FrmSecim
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(689, 616);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.lnklblYazilim);
             this.Controls.Add(this.cbxIL);
             this.Controls.Add(this.label7);
@@ -254,7 +244,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cbxIL;
         private System.Windows.Forms.LinkLabel lnklblYazilim;
-        private System.Windows.Forms.Label label8;
     }
 }
 
