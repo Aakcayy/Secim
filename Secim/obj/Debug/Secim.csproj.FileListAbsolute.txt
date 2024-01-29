@@ -1,0 +1,11 @@
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\bin\Debug\Secim.exe.config
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\bin\Debug\Secim.exe
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\bin\Debug\Secim.pdb
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\obj\Debug\Secim.csproj.AssemblyReference.cache
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\obj\Debug\Secim.FrmSecim.resources
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\obj\Debug\Secim.FrmSonuclar.resources
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\obj\Debug\Secim.Properties.Resources.resources
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\obj\Debug\Secim.csproj.GenerateResource.cache
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\obj\Debug\Secim.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\obj\Debug\Secim.exe
+C:\Users\ahmet\Desktop\Üni\Proje\Seçim Uygulaması\Secim\Secim\obj\Debug\Secim.pdb
