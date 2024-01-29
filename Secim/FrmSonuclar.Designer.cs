@@ -35,69 +35,69 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSonuclar));
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.chartIL = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.prbAil = new System.Windows.Forms.ProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.lblAOran = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblBOran = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
-            this.label4 = new System.Windows.Forms.Label();
+            this.prbBil = new System.Windows.Forms.ProgressBar();
+            this.lblCOran = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.progressBar3 = new System.Windows.Forms.ProgressBar();
-            this.label6 = new System.Windows.Forms.Label();
+            this.prbCil = new System.Windows.Forms.ProgressBar();
+            this.lblDOran = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.progressBar4 = new System.Windows.Forms.ProgressBar();
-            this.label8 = new System.Windows.Forms.Label();
+            this.prbDil = new System.Windows.Forms.ProgressBar();
+            this.lblEOran = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.progressBar5 = new System.Windows.Forms.ProgressBar();
+            this.prbEil = new System.Windows.Forms.ProgressBar();
             this.label10 = new System.Windows.Forms.Label();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartILCE = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblilceE = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.progressBar6 = new System.Windows.Forms.ProgressBar();
-            this.label14 = new System.Windows.Forms.Label();
+            this.prbEilce = new System.Windows.Forms.ProgressBar();
+            this.lblilceD = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.progressBar7 = new System.Windows.Forms.ProgressBar();
-            this.label16 = new System.Windows.Forms.Label();
+            this.prbDilce = new System.Windows.Forms.ProgressBar();
+            this.lblilceC = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.progressBar8 = new System.Windows.Forms.ProgressBar();
-            this.label18 = new System.Windows.Forms.Label();
+            this.prbCilce = new System.Windows.Forms.ProgressBar();
+            this.lblilceB = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.progressBar9 = new System.Windows.Forms.ProgressBar();
-            this.label20 = new System.Windows.Forms.Label();
+            this.prbBilce = new System.Windows.Forms.ProgressBar();
+            this.lblilceA = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.progressBar10 = new System.Windows.Forms.ProgressBar();
+            this.prbAilce = new System.Windows.Forms.ProgressBar();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartIL)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartILCE)).BeginInit();
             this.SuspendLayout();
             // 
-            // chart1
+            // chartIL
             // 
             chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            this.chartIL.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(12, 68);
-            this.chart1.Name = "chart1";
+            this.chartIL.Legends.Add(legend1);
+            this.chartIL.Location = new System.Drawing.Point(12, 68);
+            this.chartIL.Name = "chartIL";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "İL Parti Oyları";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(658, 309);
-            this.chart1.TabIndex = 0;
-            this.chart1.Text = "chart1";
+            this.chartIL.Series.Add(series1);
+            this.chartIL.Size = new System.Drawing.Size(658, 309);
+            this.chartIL.TabIndex = 0;
+            this.chartIL.Text = "chart1";
             // 
-            // progressBar1
+            // prbAil
             // 
-            this.progressBar1.Location = new System.Drawing.Point(129, 461);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(335, 37);
-            this.progressBar1.TabIndex = 1;
+            this.prbAil.Location = new System.Drawing.Point(129, 461);
+            this.prbAil.Name = "prbAil";
+            this.prbAil.Size = new System.Drawing.Size(335, 37);
+            this.prbAil.TabIndex = 1;
             // 
             // label1
             // 
@@ -119,15 +119,15 @@
             this.lblAOran.TabIndex = 3;
             this.lblAOran.Text = "A Parti";
             // 
-            // label2
+            // lblBOran
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(498, 530);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 20);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "A Parti";
+            this.lblBOran.AutoSize = true;
+            this.lblBOran.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBOran.Location = new System.Drawing.Point(498, 530);
+            this.lblBOran.Name = "lblBOran";
+            this.lblBOran.Size = new System.Drawing.Size(60, 20);
+            this.lblBOran.TabIndex = 6;
+            this.lblBOran.Text = "A Parti";
             // 
             // label3
             // 
@@ -139,22 +139,22 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "C Parti";
             // 
-            // progressBar2
+            // prbBil
             // 
-            this.progressBar2.Location = new System.Drawing.Point(129, 513);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(335, 37);
-            this.progressBar2.TabIndex = 4;
+            this.prbBil.Location = new System.Drawing.Point(129, 513);
+            this.prbBil.Name = "prbBil";
+            this.prbBil.Size = new System.Drawing.Size(335, 37);
+            this.prbBil.TabIndex = 4;
             // 
-            // label4
+            // lblCOran
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(498, 590);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 20);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "A Parti";
+            this.lblCOran.AutoSize = true;
+            this.lblCOran.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblCOran.Location = new System.Drawing.Point(498, 590);
+            this.lblCOran.Name = "lblCOran";
+            this.lblCOran.Size = new System.Drawing.Size(60, 20);
+            this.lblCOran.TabIndex = 9;
+            this.lblCOran.Text = "A Parti";
             // 
             // label5
             // 
@@ -166,22 +166,22 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "B Parti";
             // 
-            // progressBar3
+            // prbCil
             // 
-            this.progressBar3.Location = new System.Drawing.Point(129, 573);
-            this.progressBar3.Name = "progressBar3";
-            this.progressBar3.Size = new System.Drawing.Size(335, 37);
-            this.progressBar3.TabIndex = 7;
+            this.prbCil.Location = new System.Drawing.Point(129, 573);
+            this.prbCil.Name = "prbCil";
+            this.prbCil.Size = new System.Drawing.Size(335, 37);
+            this.prbCil.TabIndex = 7;
             // 
-            // label6
+            // lblDOran
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(498, 647);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 20);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "A Parti";
+            this.lblDOran.AutoSize = true;
+            this.lblDOran.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDOran.Location = new System.Drawing.Point(498, 647);
+            this.lblDOran.Name = "lblDOran";
+            this.lblDOran.Size = new System.Drawing.Size(60, 20);
+            this.lblDOran.TabIndex = 12;
+            this.lblDOran.Text = "A Parti";
             // 
             // label7
             // 
@@ -193,22 +193,22 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "D Parti";
             // 
-            // progressBar4
+            // prbDil
             // 
-            this.progressBar4.Location = new System.Drawing.Point(129, 630);
-            this.progressBar4.Name = "progressBar4";
-            this.progressBar4.Size = new System.Drawing.Size(335, 37);
-            this.progressBar4.TabIndex = 10;
+            this.prbDil.Location = new System.Drawing.Point(129, 630);
+            this.prbDil.Name = "prbDil";
+            this.prbDil.Size = new System.Drawing.Size(335, 37);
+            this.prbDil.TabIndex = 10;
             // 
-            // label8
+            // lblEOran
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(498, 704);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 20);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "A Parti";
+            this.lblEOran.AutoSize = true;
+            this.lblEOran.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblEOran.Location = new System.Drawing.Point(498, 704);
+            this.lblEOran.Name = "lblEOran";
+            this.lblEOran.Size = new System.Drawing.Size(60, 20);
+            this.lblEOran.TabIndex = 15;
+            this.lblEOran.Text = "A Parti";
             // 
             // label9
             // 
@@ -220,12 +220,12 @@
             this.label9.TabIndex = 14;
             this.label9.Text = "E Parti";
             // 
-            // progressBar5
+            // prbEil
             // 
-            this.progressBar5.Location = new System.Drawing.Point(129, 694);
-            this.progressBar5.Name = "progressBar5";
-            this.progressBar5.Size = new System.Drawing.Size(335, 37);
-            this.progressBar5.TabIndex = 13;
+            this.prbEil.Location = new System.Drawing.Point(129, 694);
+            this.prbEil.Name = "prbEil";
+            this.prbEil.Size = new System.Drawing.Size(335, 37);
+            this.prbEil.TabIndex = 13;
             // 
             // label10
             // 
@@ -237,21 +237,21 @@
             this.label10.TabIndex = 16;
             this.label10.Text = "Oy Dağılımları";
             // 
-            // chart2
+            // chartILCE
             // 
             chartArea2.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea2);
+            this.chartILCE.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
-            this.chart2.Legends.Add(legend2);
-            this.chart2.Location = new System.Drawing.Point(695, 68);
-            this.chart2.Name = "chart2";
+            this.chartILCE.Legends.Add(legend2);
+            this.chartILCE.Location = new System.Drawing.Point(695, 68);
+            this.chartILCE.Name = "chartILCE";
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
             series2.Name = "İlçe Parti Oyları";
-            this.chart2.Series.Add(series2);
-            this.chart2.Size = new System.Drawing.Size(670, 309);
-            this.chart2.TabIndex = 17;
-            this.chart2.Text = "chart2";
+            this.chartILCE.Series.Add(series2);
+            this.chartILCE.Size = new System.Drawing.Size(685, 309);
+            this.chartILCE.TabIndex = 17;
+            this.chartILCE.Text = "chart2";
             // 
             // label11
             // 
@@ -263,15 +263,15 @@
             this.label11.TabIndex = 33;
             this.label11.Text = "Oy Dağılımları";
             // 
-            // label12
+            // lblilceE
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(1232, 704);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(60, 20);
-            this.label12.TabIndex = 32;
-            this.label12.Text = "A Parti";
+            this.lblilceE.AutoSize = true;
+            this.lblilceE.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblilceE.Location = new System.Drawing.Point(1232, 704);
+            this.lblilceE.Name = "lblilceE";
+            this.lblilceE.Size = new System.Drawing.Size(60, 20);
+            this.lblilceE.TabIndex = 32;
+            this.lblilceE.Text = "A Parti";
             // 
             // label13
             // 
@@ -283,22 +283,22 @@
             this.label13.TabIndex = 31;
             this.label13.Text = "E Parti";
             // 
-            // progressBar6
+            // prbEilce
             // 
-            this.progressBar6.Location = new System.Drawing.Point(863, 694);
-            this.progressBar6.Name = "progressBar6";
-            this.progressBar6.Size = new System.Drawing.Size(335, 37);
-            this.progressBar6.TabIndex = 30;
+            this.prbEilce.Location = new System.Drawing.Point(863, 694);
+            this.prbEilce.Name = "prbEilce";
+            this.prbEilce.Size = new System.Drawing.Size(335, 37);
+            this.prbEilce.TabIndex = 30;
             // 
-            // label14
+            // lblilceD
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(1232, 647);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(60, 20);
-            this.label14.TabIndex = 29;
-            this.label14.Text = "A Parti";
+            this.lblilceD.AutoSize = true;
+            this.lblilceD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblilceD.Location = new System.Drawing.Point(1232, 647);
+            this.lblilceD.Name = "lblilceD";
+            this.lblilceD.Size = new System.Drawing.Size(60, 20);
+            this.lblilceD.TabIndex = 29;
+            this.lblilceD.Text = "A Parti";
             // 
             // label15
             // 
@@ -310,22 +310,22 @@
             this.label15.TabIndex = 28;
             this.label15.Text = "D Parti";
             // 
-            // progressBar7
+            // prbDilce
             // 
-            this.progressBar7.Location = new System.Drawing.Point(863, 630);
-            this.progressBar7.Name = "progressBar7";
-            this.progressBar7.Size = new System.Drawing.Size(335, 37);
-            this.progressBar7.TabIndex = 27;
+            this.prbDilce.Location = new System.Drawing.Point(863, 630);
+            this.prbDilce.Name = "prbDilce";
+            this.prbDilce.Size = new System.Drawing.Size(335, 37);
+            this.prbDilce.TabIndex = 27;
             // 
-            // label16
+            // lblilceC
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(1232, 590);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(60, 20);
-            this.label16.TabIndex = 26;
-            this.label16.Text = "A Parti";
+            this.lblilceC.AutoSize = true;
+            this.lblilceC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblilceC.Location = new System.Drawing.Point(1232, 590);
+            this.lblilceC.Name = "lblilceC";
+            this.lblilceC.Size = new System.Drawing.Size(60, 20);
+            this.lblilceC.TabIndex = 26;
+            this.lblilceC.Text = "A Parti";
             // 
             // label17
             // 
@@ -337,22 +337,22 @@
             this.label17.TabIndex = 25;
             this.label17.Text = "B Parti";
             // 
-            // progressBar8
+            // prbCilce
             // 
-            this.progressBar8.Location = new System.Drawing.Point(863, 573);
-            this.progressBar8.Name = "progressBar8";
-            this.progressBar8.Size = new System.Drawing.Size(335, 37);
-            this.progressBar8.TabIndex = 24;
+            this.prbCilce.Location = new System.Drawing.Point(863, 573);
+            this.prbCilce.Name = "prbCilce";
+            this.prbCilce.Size = new System.Drawing.Size(335, 37);
+            this.prbCilce.TabIndex = 24;
             // 
-            // label18
+            // lblilceB
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(1232, 530);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(60, 20);
-            this.label18.TabIndex = 23;
-            this.label18.Text = "A Parti";
+            this.lblilceB.AutoSize = true;
+            this.lblilceB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblilceB.Location = new System.Drawing.Point(1232, 530);
+            this.lblilceB.Name = "lblilceB";
+            this.lblilceB.Size = new System.Drawing.Size(60, 20);
+            this.lblilceB.TabIndex = 23;
+            this.lblilceB.Text = "A Parti";
             // 
             // label19
             // 
@@ -364,22 +364,22 @@
             this.label19.TabIndex = 22;
             this.label19.Text = "C Parti";
             // 
-            // progressBar9
+            // prbBilce
             // 
-            this.progressBar9.Location = new System.Drawing.Point(863, 513);
-            this.progressBar9.Name = "progressBar9";
-            this.progressBar9.Size = new System.Drawing.Size(335, 37);
-            this.progressBar9.TabIndex = 21;
+            this.prbBilce.Location = new System.Drawing.Point(863, 513);
+            this.prbBilce.Name = "prbBilce";
+            this.prbBilce.Size = new System.Drawing.Size(335, 37);
+            this.prbBilce.TabIndex = 21;
             // 
-            // label20
+            // lblilceA
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(1232, 471);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(60, 20);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "A Parti";
+            this.lblilceA.AutoSize = true;
+            this.lblilceA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblilceA.Location = new System.Drawing.Point(1232, 471);
+            this.lblilceA.Name = "lblilceA";
+            this.lblilceA.Size = new System.Drawing.Size(60, 20);
+            this.lblilceA.TabIndex = 20;
+            this.lblilceA.Text = "A Parti";
             // 
             // label21
             // 
@@ -391,12 +391,12 @@
             this.label21.TabIndex = 19;
             this.label21.Text = "A Parti";
             // 
-            // progressBar10
+            // prbAilce
             // 
-            this.progressBar10.Location = new System.Drawing.Point(863, 461);
-            this.progressBar10.Name = "progressBar10";
-            this.progressBar10.Size = new System.Drawing.Size(335, 37);
-            this.progressBar10.TabIndex = 18;
+            this.prbAilce.Location = new System.Drawing.Point(863, 461);
+            this.prbAilce.Name = "prbAilce";
+            this.prbAilce.Size = new System.Drawing.Size(335, 37);
+            this.prbAilce.TabIndex = 18;
             // 
             // label22
             // 
@@ -439,45 +439,45 @@
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.lblilceE);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.progressBar6);
-            this.Controls.Add(this.label14);
+            this.Controls.Add(this.prbEilce);
+            this.Controls.Add(this.lblilceD);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.progressBar7);
-            this.Controls.Add(this.label16);
+            this.Controls.Add(this.prbDilce);
+            this.Controls.Add(this.lblilceC);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.progressBar8);
-            this.Controls.Add(this.label18);
+            this.Controls.Add(this.prbCilce);
+            this.Controls.Add(this.lblilceB);
             this.Controls.Add(this.label19);
-            this.Controls.Add(this.progressBar9);
-            this.Controls.Add(this.label20);
+            this.Controls.Add(this.prbBilce);
+            this.Controls.Add(this.lblilceA);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.progressBar10);
-            this.Controls.Add(this.chart2);
+            this.Controls.Add(this.prbAilce);
+            this.Controls.Add(this.chartILCE);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblEOran);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.progressBar5);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.prbEil);
+            this.Controls.Add(this.lblDOran);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.progressBar4);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.prbDil);
+            this.Controls.Add(this.lblCOran);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.progressBar3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.prbCil);
+            this.Controls.Add(this.lblBOran);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.progressBar2);
+            this.Controls.Add(this.prbBil);
             this.Controls.Add(this.lblAOran);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.prbAil);
+            this.Controls.Add(this.chartIL);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "FrmSonuclar";
             this.Text = "FrmSonuclar";
             this.Load += new System.EventHandler(this.FrmSonuclar_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartIL)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartILCE)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -485,40 +485,40 @@
 
         #endregion
 
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartIL;
+        private System.Windows.Forms.ProgressBar prbAil;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblAOran;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblBOran;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ProgressBar progressBar2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ProgressBar prbBil;
+        private System.Windows.Forms.Label lblCOran;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ProgressBar progressBar3;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ProgressBar prbCil;
+        private System.Windows.Forms.Label lblDOran;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ProgressBar progressBar4;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ProgressBar prbDil;
+        private System.Windows.Forms.Label lblEOran;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ProgressBar progressBar5;
+        private System.Windows.Forms.ProgressBar prbEil;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartILCE;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblilceE;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ProgressBar progressBar6;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ProgressBar prbEilce;
+        private System.Windows.Forms.Label lblilceD;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ProgressBar progressBar7;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.ProgressBar prbDilce;
+        private System.Windows.Forms.Label lblilceC;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ProgressBar progressBar8;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ProgressBar prbCilce;
+        private System.Windows.Forms.Label lblilceB;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ProgressBar progressBar9;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ProgressBar prbBilce;
+        private System.Windows.Forms.Label lblilceA;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.ProgressBar progressBar10;
+        private System.Windows.Forms.ProgressBar prbAilce;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Button button1;

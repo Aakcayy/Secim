@@ -18,24 +18,24 @@ namespace Secim
         {
             InitializeComponent();
         }
-
+        sqlbaglantisi baglan = new sqlbaglantisi();
         private void lnklblYazilim_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/Aakcayy");
         }
 
         
-        SqlConnection baglan=new SqlConnection(@"Data Source=KARTALPC\SQLEXPRESS03;Initial Catalog=Secim;Integrated Security=True");   
+        
         private void FrmSecim_Load(object sender, EventArgs e)
         {
-            baglan.Open();
-            SqlCommand il = new SqlCommand("SELECT DISTINCT IL FROM TBLSECIM", baglan);
+         
+            SqlCommand il = new SqlCommand("SELECT DISTINCT IL FROM TBLSECIM", baglan.baglanti());
             SqlDataReader dr = il.ExecuteReader();
             while (dr.Read())
             {
                 cbxIL.Items.Add(dr["IL"]);
             }
-            baglan.Close();
+         
 
 
         }
@@ -52,10 +52,10 @@ namespace Secim
             {
                 cbxILCE.Items.Clear();
 
-                SqlCommand ilce = new SqlCommand("SELECT ILCE FROM TBLSECIM WHERE IL=@p1", baglan);
+                SqlCommand ilce = new SqlCommand("SELECT ILCE FROM TBLSECIM WHERE IL=@p1", baglan.baglanti());
                 ilce.Parameters.AddWithValue("@p1", secilenIL);
 
-                baglan.Open();
+                
                 SqlDataReader dt = ilce.ExecuteReader();
 
                
@@ -64,19 +64,32 @@ namespace Secim
                     cbxILCE.Items.Add(dt["ILCE"].ToString());
                 }
 
-                baglan.Close();
+              
             }
            
         }
         private void btnSonuclar_Click(object sender, EventArgs e)
         {
             FrmSonuclar frs = new FrmSonuclar();
-            frs.il2 = cbxIL.SelectedItem.ToString(); 
+            frs.il2 = cbxIL.SelectedItem.ToString();
+            frs.ilce2 = cbxILCE.SelectedItem.ToString();
 
             frs.Show();
             this.Hide();
         }
 
-
+        private void btnKaydet_Click(object sender, EventArgs e)
+        {
+            SqlCommand oy = new SqlCommand("Update TBLSECIM SET AParti=@p1,BParti=@p2,CParti=@p3,DParti=@p4,EParti=@p5 where IL=@p6 and ILCE=@p7", baglan.baglanti());
+            oy.Parameters.AddWithValue("@p1",tbxAPARTI.Text);
+            oy.Parameters.AddWithValue("@p2", tbxBParti.Text);
+            oy.Parameters.AddWithValue("@p3", tbxCParti.Text);
+            oy.Parameters.AddWithValue("@p4", tbxDParti.Text);
+            oy.Parameters.AddWithValue("@p5", tbxEParti.Text);
+            oy.Parameters.AddWithValue("@p6", cbxIL.SelectedItem.ToString());
+            oy.Parameters.AddWithValue("@p7", cbxILCE.SelectedItem.ToString());
+            oy.ExecuteNonQuery();
+            MessageBox.Show("Güncelleme yapılmıştır");
+        }
     }
 }
