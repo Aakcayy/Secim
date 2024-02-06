@@ -99,7 +99,7 @@ namespace Secim
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            if (cbxILCE.SelectedItem == null && cbxIL.SelectedItem == null && tbxAPARTI.Text == "" && tbxBParti.Text == "" && tbxCParti.Text == "" && tbxDParti.Text == "" && tbxEParti.Text == "")
+            if (cbxILCE.SelectedItem == null || cbxIL.SelectedItem == null || tbxAPARTI.Text == "" || tbxBParti.Text == "" || tbxCParti.Text == "" || tbxDParti.Text == "" || tbxEParti.Text == "")
             {
                 MessageBox.Show("Eksik veri girişi yapılmıştır.");
             }

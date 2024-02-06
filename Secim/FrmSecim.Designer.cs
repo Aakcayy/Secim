@@ -88,7 +88,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(39, 213);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 23);
+            this.label5.Size = new System.Drawing.Size(119, 23);
             this.label5.TabIndex = 4;
             this.label5.Text = " B PARTİ:";
             // 
