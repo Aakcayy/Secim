@@ -69,8 +69,8 @@
             this.lblilceA = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.prbAilce = new System.Windows.Forms.ProgressBar();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
+            this.lblIL = new System.Windows.Forms.Label();
+            this.lblILCE = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chartIL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartILCE)).BeginInit();
@@ -249,7 +249,7 @@
             series2.Legend = "Legend1";
             series2.Name = "İlçe Parti Oyları";
             this.chartILCE.Series.Add(series2);
-            this.chartILCE.Size = new System.Drawing.Size(685, 309);
+            this.chartILCE.Size = new System.Drawing.Size(692, 309);
             this.chartILCE.TabIndex = 17;
             this.chartILCE.Text = "chart2";
             // 
@@ -267,7 +267,7 @@
             // 
             this.lblilceE.AutoSize = true;
             this.lblilceE.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblilceE.Location = new System.Drawing.Point(1232, 704);
+            this.lblilceE.Location = new System.Drawing.Point(1215, 704);
             this.lblilceE.Name = "lblilceE";
             this.lblilceE.Size = new System.Drawing.Size(60, 20);
             this.lblilceE.TabIndex = 32;
@@ -277,7 +277,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(764, 704);
+            this.label13.Location = new System.Drawing.Point(747, 704);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(60, 20);
             this.label13.TabIndex = 31;
@@ -285,7 +285,7 @@
             // 
             // prbEilce
             // 
-            this.prbEilce.Location = new System.Drawing.Point(863, 694);
+            this.prbEilce.Location = new System.Drawing.Point(846, 694);
             this.prbEilce.Name = "prbEilce";
             this.prbEilce.Size = new System.Drawing.Size(335, 37);
             this.prbEilce.TabIndex = 30;
@@ -294,7 +294,7 @@
             // 
             this.lblilceD.AutoSize = true;
             this.lblilceD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblilceD.Location = new System.Drawing.Point(1232, 647);
+            this.lblilceD.Location = new System.Drawing.Point(1215, 647);
             this.lblilceD.Name = "lblilceD";
             this.lblilceD.Size = new System.Drawing.Size(60, 20);
             this.lblilceD.TabIndex = 29;
@@ -304,7 +304,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(764, 647);
+            this.label15.Location = new System.Drawing.Point(747, 647);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(62, 20);
             this.label15.TabIndex = 28;
@@ -312,7 +312,7 @@
             // 
             // prbDilce
             // 
-            this.prbDilce.Location = new System.Drawing.Point(863, 630);
+            this.prbDilce.Location = new System.Drawing.Point(846, 630);
             this.prbDilce.Name = "prbDilce";
             this.prbDilce.Size = new System.Drawing.Size(335, 37);
             this.prbDilce.TabIndex = 27;
@@ -321,7 +321,7 @@
             // 
             this.lblilceC.AutoSize = true;
             this.lblilceC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblilceC.Location = new System.Drawing.Point(1232, 590);
+            this.lblilceC.Location = new System.Drawing.Point(1215, 590);
             this.lblilceC.Name = "lblilceC";
             this.lblilceC.Size = new System.Drawing.Size(60, 20);
             this.lblilceC.TabIndex = 26;
@@ -331,7 +331,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(764, 530);
+            this.label17.Location = new System.Drawing.Point(747, 530);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(61, 20);
             this.label17.TabIndex = 25;
@@ -339,7 +339,7 @@
             // 
             // prbCilce
             // 
-            this.prbCilce.Location = new System.Drawing.Point(863, 573);
+            this.prbCilce.Location = new System.Drawing.Point(846, 573);
             this.prbCilce.Name = "prbCilce";
             this.prbCilce.Size = new System.Drawing.Size(335, 37);
             this.prbCilce.TabIndex = 24;
@@ -348,7 +348,7 @@
             // 
             this.lblilceB.AutoSize = true;
             this.lblilceB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblilceB.Location = new System.Drawing.Point(1232, 530);
+            this.lblilceB.Location = new System.Drawing.Point(1215, 530);
             this.lblilceB.Name = "lblilceB";
             this.lblilceB.Size = new System.Drawing.Size(60, 20);
             this.lblilceB.TabIndex = 23;
@@ -358,7 +358,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.Location = new System.Drawing.Point(764, 590);
+            this.label19.Location = new System.Drawing.Point(747, 590);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(61, 20);
             this.label19.TabIndex = 22;
@@ -366,7 +366,7 @@
             // 
             // prbBilce
             // 
-            this.prbBilce.Location = new System.Drawing.Point(863, 513);
+            this.prbBilce.Location = new System.Drawing.Point(846, 513);
             this.prbBilce.Name = "prbBilce";
             this.prbBilce.Size = new System.Drawing.Size(335, 37);
             this.prbBilce.TabIndex = 21;
@@ -375,7 +375,7 @@
             // 
             this.lblilceA.AutoSize = true;
             this.lblilceA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblilceA.Location = new System.Drawing.Point(1232, 471);
+            this.lblilceA.Location = new System.Drawing.Point(1215, 471);
             this.lblilceA.Name = "lblilceA";
             this.lblilceA.Size = new System.Drawing.Size(60, 20);
             this.lblilceA.TabIndex = 20;
@@ -385,7 +385,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label21.Location = new System.Drawing.Point(764, 471);
+            this.label21.Location = new System.Drawing.Point(747, 471);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(60, 20);
             this.label21.TabIndex = 19;
@@ -393,30 +393,30 @@
             // 
             // prbAilce
             // 
-            this.prbAilce.Location = new System.Drawing.Point(863, 461);
+            this.prbAilce.Location = new System.Drawing.Point(846, 461);
             this.prbAilce.Name = "prbAilce";
             this.prbAilce.Size = new System.Drawing.Size(335, 37);
             this.prbAilce.TabIndex = 18;
             // 
-            // label22
+            // lblIL
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(200, 25);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(153, 20);
-            this.label22.TabIndex = 34;
-            this.label22.Text = "İL OY SONUCLARI";
+            this.lblIL.AutoSize = true;
+            this.lblIL.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblIL.Location = new System.Drawing.Point(200, 25);
+            this.lblIL.Name = "lblIL";
+            this.lblIL.Size = new System.Drawing.Size(153, 20);
+            this.lblIL.TabIndex = 34;
+            this.lblIL.Text = "İL OY SONUCLARI";
             // 
-            // label23
+            // lblILCE
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(937, 25);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(176, 20);
-            this.label23.TabIndex = 35;
-            this.label23.Text = "İLÇE OY SONUÇLARI";
+            this.lblILCE.AutoSize = true;
+            this.lblILCE.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblILCE.Location = new System.Drawing.Point(937, 25);
+            this.lblILCE.Name = "lblILCE";
+            this.lblILCE.Size = new System.Drawing.Size(176, 20);
+            this.lblILCE.TabIndex = 35;
+            this.lblILCE.Text = "İLÇE OY SONUÇLARI";
             // 
             // button1
             // 
@@ -434,10 +434,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1377, 749);
+            this.ClientSize = new System.Drawing.Size(1399, 749);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
+            this.Controls.Add(this.lblILCE);
+            this.Controls.Add(this.lblIL);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.lblilceE);
             this.Controls.Add(this.label13);
@@ -473,8 +473,9 @@
             this.Controls.Add(this.prbAil);
             this.Controls.Add(this.chartIL);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "FrmSonuclar";
-            this.Text = "FrmSonuclar";
+            this.Text = "İl-İlçe Souçlar";
             this.Load += new System.EventHandler(this.FrmSonuclar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chartIL)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartILCE)).EndInit();
@@ -519,8 +520,8 @@
         private System.Windows.Forms.Label lblilceA;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.ProgressBar prbAilce;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label lblIL;
+        private System.Windows.Forms.Label lblILCE;
         private System.Windows.Forms.Button button1;
     }
 }

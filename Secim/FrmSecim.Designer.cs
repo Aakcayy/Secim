@@ -218,8 +218,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "FrmSecim";
-            this.Text = "Form1";
+            this.Text = "Oy Giriş Ekranı";
             this.Load += new System.EventHandler(this.FrmSecim_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

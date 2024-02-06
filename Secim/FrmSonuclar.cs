@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace Secim
 {
@@ -30,7 +31,9 @@ namespace Secim
 
         private void FrmSonuclar_Load(object sender, EventArgs e)
         {
-          
+            lblIL.Text = il2+" " +"Oy Sonuçları";
+            lblILCE.Text = ilce2+" " + "Oy Sonuçları";
+
             SqlCommand il = new SqlCommand("Select SUM(AParti),SUM(BParti),SUM(CParti),SUM(DParti),SUM(EParti) From TBLSECIM where IL=@p1 ",baglan.baglanti());
             il.Parameters.AddWithValue("@p1",il2);
             SqlDataReader dr = il.ExecuteReader();

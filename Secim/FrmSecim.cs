@@ -81,12 +81,20 @@ namespace Secim
         }
         private void btnSonuclar_Click(object sender, EventArgs e)
         {
-            FrmSonuclar frs = new FrmSonuclar();
-            frs.il2 = cbxIL.SelectedItem.ToString();
-            frs.ilce2 = cbxILCE.SelectedItem.ToString();
+            if (cbxILCE.SelectedItem == null || cbxIL.SelectedItem == null)
+            {
+                MessageBox.Show("İL veya ilçe seçimi yapılmamıştır.");
+            }
+            else
+            {
+                FrmSonuclar frs = new FrmSonuclar();
+                frs.il2 = cbxIL.SelectedItem.ToString();
+                frs.ilce2 = cbxILCE.SelectedItem.ToString();
 
-            frs.Show();
-            this.Hide();
+                frs.Show();
+                this.Hide();
+            }
+            
         }
 
         private void btnKaydet_Click(object sender, EventArgs e)
